@@ -12,5 +12,5 @@ contains an array with the content corresponding
 to each update of the app.
 */
 savedContent = BL.getStaticContent(APP.appId)//(APP.appId);
-$('.content-image').attr('src', savedContent.iphone_image_url[0])
+$('.content-image').append('<img src="' + savedContent.iphone_image_url[0] + '">')
 
