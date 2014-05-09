@@ -11,6 +11,7 @@ equal to the identifiers of each piece of content. Each property
 contains an array with the content corresponding
 to each update of the app.
 */
+alert(0)
 savedContent = BL.getStaticContent(APP.appId)//(APP.appId);
 $('.content-image').append('<img src="' + savedContent.iphone_image_url[0] + '">')
 console.log($('.content-image img').attr('src'))
