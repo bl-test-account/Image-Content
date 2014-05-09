@@ -13,4 +13,5 @@ to each update of the app.
 */
 savedContent = BL.getStaticContent(APP.appId)//(APP.appId);
 $('.content-image').append('<img src="' + savedContent.iphone_image_url[0] + '">')
+console.log($('.content-image img').attr('src'))
 
